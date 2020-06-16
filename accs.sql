@@ -47,7 +47,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `fullname`, `email`, `password`, `type`, `status`, `created_by`, `updated_by`, `created_date`, `updated_date`) VALUES
-(1, 'admin', 'administrator', 'admin123@gmail.com', '8b283e8957f744ae5a1a6add05fc354f', 'admin', '1', 11, 11, '2019-06-19 05:35:08', '2019-06-19 15:23:21');
+(1, 'admin', 'administrator', 'admin123@gmail.com', 'c3284d0f94606de1fd2af172aba15bf3', 'admin', '1', 11, 11, '2019-06-19 05:35:08', '2019-06-19 15:23:21');
 
 -- --------------------------------------------------------
 
@@ -74,10 +74,6 @@ CREATE TABLE `counselor` (
 -- Dumping data for table `counselor`
 --
 
-INSERT INTO `counselor` (`id`, `picture`, `name`, `qualification`, `department`, `email`, `password`, `skype_id`, `phone_number`, `average_rating`, `status`, `created_at`) VALUES
-(2, '	images/people/blank.png', 'Talha Mubashar', 'Sofware Engineer', 'Computer Sciences', 'talhatalha0012@gmail.com', '1adea88d814b325fa4f7b1861527a062', 'talha123', '', 5, '1', '2019-07-17 06:06:43');
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `news`
@@ -229,8 +225,7 @@ CREATE TABLE `students` (
 
 INSERT INTO `students` (`id`, `name`, `email`, `password`, `picture`, `semester`, `skype_id`, `phone_number`, `address`, `program`, `status`, `created_at`) VALUES
 ('023-fbas/bsit/f15', 'abc def', 'fdsfdsfdsfdsf@iiui.edu.pk', 'c98e3dde1049928dc9525d858e528591', 'images/people/blank.png', 1, NULL, NULL, NULL, 'Computer Sciences', '1', '2019-07-17 06:20:30'),
-('078-fbas/bsit/f15', 'Rahila Ansar', 'Rahilaansar@iiui.edu.pk', 'bf73fc7d9a2649907944805fc1aa6c09', 'images/people/blank.png', 3, NULL, NULL, NULL, 'Computer Sciences', '1', '2019-07-16 07:20:23'),
-('123-asda/sdas/d13', 'talha mubashar', 'talhamubashar0012@gmail.com', '3f1829cc74b7e860a269a2cef3967e45', 'images/people/blank.png', 1, NULL, NULL, NULL, 'Computer Sciences', '1', '2019-07-16 17:45:26');
+('078-fbas/bsit/f15', 'Rahila Ansar', 'Rahilaansar@iiui.edu.pk', 'bf73fc7d9a2649907944805fc1aa6c09', 'images/people/blank.png', 3, NULL, NULL, NULL, 'Computer Sciences', '1', '2019-07-16 07:20:23');
 
 -- --------------------------------------------------------
 
